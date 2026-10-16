@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# CVs are shared privately on request.
+
+assets/docs/*.pdf
