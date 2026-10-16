@@ -31,7 +31,7 @@ Research figures and photographs belong to their respective owners. The site doe
 
 Warm paper, cobalt blue, and orange accents form a research-notebook style. A portrait collage, dotted trajectory, orange sticker, and robot snapshot introduce Jinglin, while thumbnail rows present the released research. Mobile layouts retain the same content and language controls.
 
-The compact academic layout places titles, authorship, and status together, with inline benchmark numbers and a short project index. CRIS-0 contributions open by default. On mobile, the decorated portrait sits beside the introduction and project thumbnails float beside the text. Research descriptions remain 13–14 px.
+The compact academic layout places titles, authorship, and status together, with inline benchmark numbers and a short project index. CRIS-0 contributions open by default. On mobile, the decorated portrait sits beside the introduction and project thumbnails float beside the text. Research descriptions use 14–15 px, with smaller labels increased slightly for readability. The introduction emphasizes current research and collaboration; undergraduate background is kept brief.
 
 Space Grotesk is self-hosted from Google Fonts; its SIL Open Font License is included in `assets/fonts/OFL.txt`.
 
