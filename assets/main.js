@@ -1,6 +1,6 @@
 "use strict";
 const zh = {
-  skip:"跳转到正文",navResearch:"研究",navExperience:"经历",navContact:"联系",heroCv:"简历",heroEyebrow:"机器人学习 · 具身智能体",heroLead:"让机器人，",heroLeadAccent:"走出预设的脚本。",
+  skip:"跳转到正文",navResearch:"研究",navExperience:"经历",navContact:"联系",heroCv:"简历",heroGreeting:"嗨，我是",heroLead:"让机器人，",heroLeadAccent:"走出预设的脚本。",
   introStart:"我在 ",introStudy:" 攻读硕士，与 ",introAdvisor:"Michael Yip 教授",introAether:" 开展机器人学习研究，同时在 ",introEnd:" 担任研究实习生。",
   introFocus:"研究聚焦开放式与长程机器人自主，关注因果推理、行为记忆和世界模型；相关工作包括 ",introCrisWork:" 的 Agent 规划与执行，以及 ",introCampWork:" 的操作记忆，希望机器人能理解情境、自主发现任务、组合技能，并从失败中恢复。",
   introPast:"本科毕业于 ",introTongji:"同济大学",introHirain:"，曾在 ",introHirainName:"经纬恒润",introCollab:" 从事动态感知。欢迎 ",introConnect:"交流想法、探讨合作。",availability:"寻求 2027 年起的机器人学习 / 具身智能研究与工程岗位",location:"美国加州 · 圣迭戈",portraitCaption:"UC San Diego · Aether AI",
