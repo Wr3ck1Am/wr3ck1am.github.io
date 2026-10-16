@@ -1,8 +1,9 @@
 "use strict";
 const zh = {
   skip:"跳转到正文",navResearch:"研究",navExperience:"经历",navContact:"联系",heroCv:"简历",heroEyebrow:"机器人学习 · 具身智能体",heroLead:"让机器人，",heroLeadAccent:"走出预设的脚本。",
-  intro:"我目前在 UC San Diego（UCSD）攻读机器学习与数据科学硕士，并在 Aether AI 担任研究实习生。在 UCSD，我与 Michael Yip 教授开展机器人学习研究。",
-  introFocus:"我的研究聚焦长程与开放式机器人自主，关注因果推理、行为记忆和世界模型：机器人如何理解情境、自主发现有用的任务、组合技能，并在日常环境中从失败中恢复。",introResearch:"研究经历涵盖 CRIS-0 中因果 Agent 的规划与执行、CAMP 中面向部分可观测操作的行为记忆，以及机器人学习的评测基础设施。我喜欢构建完整系统，并在真实机器人上检验其行为。",introBackground:"本科毕业于同济大学，曾在经纬恒润从事动态感知。欢迎就机器人学习与具身 Agent 交流想法、探讨研究合作。",availability:"寻求 2027 年起的机器人学习 / 具身智能研究与工程岗位",location:"美国加州 · 圣迭戈",portraitCaption:"UC San Diego · Aether AI",
+  introStart:"我在 ",introStudy:" 攻读硕士，与 ",introAdvisor:"Michael Yip 教授",introAether:" 开展机器人学习研究，同时在 ",introEnd:" 担任研究实习生。",
+  introFocus:"研究聚焦开放式与长程机器人自主，关注因果推理、行为记忆和世界模型；相关工作包括 ",introCrisWork:" 的 Agent 规划与执行，以及 ",introCampWork:" 的操作记忆，希望机器人能理解情境、自主发现任务、组合技能，并从失败中恢复。",
+  introPast:"本科毕业于 ",introTongji:"同济大学",introHirain:"，曾在 ",introHirainName:"经纬恒润",introCollab:" 从事动态感知。欢迎 ",introConnect:"交流想法、探讨合作。",availability:"寻求 2027 年起的机器人学习 / 具身智能研究与工程岗位",location:"美国加州 · 圣迭戈",portraitCaption:"UC San Diego · Aether AI",
   studioNote:"从情境，到行动。",lensBuild:"CRIS-0",lensBuildDetail:"因果 Agent · 智元 G1",lensRemember:"CAMP",lensRememberDetail:"行为记忆 · CoRL Workshop / TRA",
   researchEyebrow:"主要研究",researchHeading:"研究项目",researchNote:"从机器人的行为，到衡量能力的评测体系。",
   crisRole:"共同第一作者",crisStatus:"2026.10 公开发布",crisSubtitle:"因果驱动的机器人智能系统",crisBody:"通过因果 Agent 与世界模型实现机器人长程自主。我负责 Agent 侧的 Planner、Executor、统一工具接口与执行策略，集成因果世界动作模型策略，并部署至智元 G1。",crisKeyline:"因果任务状态 · 技能编排 · 失败恢复",researchBlog:"技术博客",myContribution:"我的贡献",
