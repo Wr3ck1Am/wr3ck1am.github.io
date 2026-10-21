@@ -19,6 +19,7 @@ Repository: `Wr3ck1Am/wr3ck1am.github.io`. Publish from `main` at `/`. `.nojekyl
 
 - Current resume and project descriptions in the parent workspace, as confirmed on 2026-10-13.
 - CAMP co-second authorship explicitly confirmed by the user on 2026-10-13; the arXiv display order is not used to infer contribution rank.
+- ARCLab affiliation and dates (Jan–May 2026) confirmed by the user on 2026-10-21. The introduction and experience timeline distinguish this past research with Prof. Michael Yip from the current Aether AI internship. The lab's full name is verified on [Michael Yip's official page](https://yip.eng.ucsd.edu/); “Student Researcher” describes the research role without implying a paid appointment.
 - Portrait from the user's GitHub avatar.
 - CRIS-0 cover and demo still: the official film cover and public household-tidying demonstration poster from the [Aether AI research blog](https://aetherlabs.ai/articles/real-world-autonomous-robotic-system-with-causality-driven-agent-and-world-model).
 - CAMP main figure: [CAMP project website](https://robo-camp.github.io/).
