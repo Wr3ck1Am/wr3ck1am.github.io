@@ -8,6 +8,7 @@ const zh = {
   researchEyebrow:"主要研究",researchHeading:"研究项目",researchNote:"从机器人的行为，到衡量能力的评测体系。",
   crisRole:"共同第一作者",crisStatus:"2026.10 公开发布",crisSubtitle:"因果驱动的机器人智能系统",crisBody:"通过因果 Agent 与世界模型实现机器人长程自主。我负责 Agent 侧的 Planner、Executor、统一工具接口与执行策略，集成因果世界动作模型策略，并部署至智元 G1。",crisKeyline:"因果任务状态 · 技能编排 · 失败恢复",researchBlog:"技术博客",myContribution:"我的贡献",
   crisDetails:"以显式因果状态构建可验证的阶段转换，支持重试、回退与重规划。从少量示教生成阶段、验证条件与工具，协调规则运动、学习策略、导航与 Verifier；公开真机演示涵盖长程整理、桌布更换，以及新物体上的技能迁移。",
+  crisCoverage:"媒体报道与讨论",syncedMachine:"机器之心",qbitai:"量子位",sponsoredContent:"（品牌赞助）",
   crisMedia:"真实物体，变化的情境。",campMedia:"下一步，来自过去的记忆。",
   campRole:"共同第二作者 · UC San Diego ARCLab",campStatus:"已投稿 CoRL Workshop / TRA",campSubtitle:"面向部分可观测操作的行为记忆",campBody:"让机器人从自身的执行历史中学习。CAMP 通过历史动作重建学习紧凑的行为记忆，并接入 Diffusion Policy。我的贡献主要是 Memory-T-Bench / Memory-Manip-Bench 的示教与评测基础设施，以及基线实验。",campResult:"7 项三维任务平均成功率",projectWebsite:"项目主页",paperDetails:"论文信息",campDetails:"共同第二作者，导师为 Michael Yip 教授。已投稿 CoRL Workshop 和 TRA。搭建 Memory-T-Bench / Memory-Manip-Bench 的示教与评测设施，开展 ACT、Diffusion Policy、π0.5、MemoryVLA 基线实验。7 项三维任务平均成功率 64.3%，较最佳基线提升 23.4 个百分点；4 项 Franka Panda 真机任务中，3 项由全部基线 0/10 提升至 7/10，Probe-Insert 达 11/15。",
   lensWorldDetail:"视频到仿真 · 222 个实例",v2wRole:"参与作者 · Aether AI",v2wStatus:"arXiv 预印本 · 2026.10",v2wSubtitle:"从具身视频构建交互世界的 Coding Agent 评测",
