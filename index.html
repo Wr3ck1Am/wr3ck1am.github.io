@@ -68,9 +68,10 @@
     </section>
 
     <div class="research-lens page-width" aria-label="Research directions">
-      <a href="#cris0"><span class="lens-number">01</span><span><strong data-i18n="lensBuild">CRIS-0</strong><small data-i18n="lensBuildDetail">Causal agents · AgiBot G1</small></span><span class="lens-arrow" aria-hidden="true">↗</span></a>
-      <a href="#camp"><span class="lens-number">02</span><span><strong data-i18n="lensRemember">CAMP</strong><small data-i18n="lensRememberDetail">Behavioral memory · CoRL Workshop / TRA</small></span><span class="lens-arrow" aria-hidden="true">↗</span></a>
-      <a href="#video2world"><span class="lens-number">03</span><span><strong>Video2World</strong><small data-i18n="lensWorldDetail">Video-to-simulation · 222 instances</small></span><span class="lens-arrow" aria-hidden="true">↗</span></a>
+      <a href="#robotagentbench"><span class="lens-number">01</span><span><strong>RobotAgentBench</strong><small data-i18n="lensRab">Open-world robot autonomy</small></span><span class="lens-arrow" aria-hidden="true">↗</span></a>
+      <a href="#cris0"><span class="lens-number">02</span><span><strong data-i18n="lensBuild">CRIS-0</strong><small data-i18n="lensBuildDetail">Causal agents · AgiBot G1</small></span><span class="lens-arrow" aria-hidden="true">↗</span></a>
+      <a href="#camp"><span class="lens-number">03</span><span><strong data-i18n="lensRemember">CAMP</strong><small data-i18n="lensRememberDetail">Behavioral memory · CoRL Workshop / TRA</small></span><span class="lens-arrow" aria-hidden="true">↗</span></a>
+      <a href="#video2world"><span class="lens-number">04</span><span><strong>Video2World</strong><small data-i18n="lensWorldDetail">Video-to-simulation · 222 instances</small></span><span class="lens-arrow" aria-hidden="true">↗</span></a>
     </div>
 
     <section class="research page-width" id="research" aria-labelledby="research-heading">
@@ -79,10 +80,24 @@
         <p class="section-note" data-i18n="researchNote">From robot behavior to the benchmarks that measure it.</p>
       </div>
 
+      <article class="project rab-project" id="robotagentbench">
+        <a class="project-visual visual-video2world" href="https://aetherlabsai.github.io/RobotAgentBench/" target="_blank" rel="noopener noreferrer" aria-label="Visit RobotAgentBench">
+          <img src="assets/images/robotagentbench.webp" alt="RobotAgentBench household environments, task hierarchy and robot-agent evaluation" width="1600" height="947" loading="lazy">
+          <span class="visual-index">01 / ROBOT AUTONOMY</span><span class="visual-open" aria-hidden="true">↗</span>
+        </a>
+        <div class="project-copy">
+          <div class="project-heading"><h3>RobotAgentBench</h3><div class="project-meta"><span data-i18n="rabRole">Co-project leader · Co-first author</span><span class="project-status" data-i18n="rabStatus">arXiv · Oct 2026</span></div></div>
+          <p class="project-subtitle" data-i18n="rabSubtitle">Towards Open-world Robot Autonomy</p>
+          <p data-i18n="rabBody">Co-led a benchmark for household robot autonomy, from explicit manipulation instructions to open-ended assistance. My work spans evaluation design, task construction, model adaptation, and experiments, assessing task discovery, context reasoning, manipulation, failure recovery, and robustness.</p>
+          <div class="project-numbers" aria-label="RobotAgentBench scale"><span><strong>50</strong><small data-i18n="rabLayouts">household layouts</small></span><span><strong>90</strong><small data-i18n="rabAtomic">atomic tasks</small></span><span><strong>18 + 8</strong><small data-i18n="rabTasks">short + long tasks</small></span><span><strong>4</strong><small data-i18n="rabScenarios">open-ended scenarios</small></span></div>
+          <div class="project-actions"><a class="text-link" href="https://aetherlabsai.github.io/RobotAgentBench/" target="_blank" rel="noopener noreferrer"><span data-i18n="projectWebsite">Project website</span> ↗</a><a class="text-link" href="https://arxiv.org/abs/2610.34649" target="_blank" rel="noopener noreferrer">arXiv ↗</a><a class="text-link" href="https://github.com/AetherLabsAI/RobotAgentBench" target="_blank" rel="noopener noreferrer"><span data-i18n="codeLink">Code</span> ↗</a></div>
+          <details class="project-details"><summary><span data-i18n="myContribution">My contribution</span><span aria-hidden="true">+</span></summary><div class="details-content"><p data-i18n="rabDetails">Designed scene randomization, task-composition and intervention experiments, and a shared evaluation protocol for VLA/WAM policies and coding agents. The released paper compares 11 standalone policies with robot-agent architectures under a planning–execution–verification framework. Benchmark code, simulation assets, and the fine-tuned InternVLA-A1.5-RAB model are publicly available.</p></div></details>
+        </div>
+      </article>
       <article class="project feature-project" id="cris0">
         <a class="project-visual visual-cris" href="https://aetherlabs.ai/articles/real-world-autonomous-robotic-system-with-causality-driven-agent-and-world-model" target="_blank" rel="noopener noreferrer" aria-label="Read the CRIS-0 research blog">
           <img src="assets/images/cris0.webp" alt="Official CRIS-0 film cover: Aether AI and a household robot demonstration" width="1500" height="844" loading="lazy">
-          <span class="visual-index">01 / SYSTEMS</span><span class="visual-open" aria-hidden="true">↗</span>
+          <span class="visual-index">02 / SYSTEMS</span><span class="visual-open" aria-hidden="true">↗</span>
           <span class="media-caption"><span data-i18n="crisMedia">Real objects. Changing context.</span><small>CRIS-0 · AETHER AI</small></span>
         </a>
         <div class="project-copy">
@@ -108,7 +123,7 @@
       <article class="project camp-project" id="camp">
         <a class="project-visual visual-camp" href="https://robo-camp.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Visit the CAMP project website">
           <img src="assets/images/camp.webp" alt="CAMP main figure: behavioral memory, action execution, and real-robot demonstrations" width="1500" height="657" loading="lazy">
-          <span class="visual-index">02 / ROBOT LEARNING</span><span class="visual-open" aria-hidden="true">↗</span>
+          <span class="visual-index">03 / ROBOT LEARNING</span><span class="visual-open" aria-hidden="true">↗</span>
           <span class="media-caption"><span data-i18n="campMedia">The next action has a history.</span><small>CAMP · FRANKA PANDA</small></span>
         </a>
         <div class="project-copy">
@@ -123,7 +138,7 @@
       <article class="project video2world-project" id="video2world">
         <a class="project-visual visual-video2world" href="https://aetherlabsai.github.io/Video2World/" target="_blank" rel="noopener noreferrer" aria-label="Visit the Video2World project website">
           <img src="assets/images/video2world.webp" alt="Video2World overview: embodied videos, coding agents, interactive simulations, and benchmark evaluation" width="2800" height="1528" loading="lazy">
-          <span class="visual-index">03 / WORLD MODELING</span><span class="visual-open" aria-hidden="true">↗</span>
+          <span class="visual-index">04 / WORLD MODELING</span><span class="visual-open" aria-hidden="true">↗</span>
         </a>
         <div class="project-copy">
           <div class="project-heading"><h3>Video2World</h3><div class="project-meta"><span data-i18n="v2wRole">Author · Aether AI</span><span class="project-status" data-i18n="v2wStatus">arXiv · Oct 2026</span></div></div>
@@ -139,7 +154,7 @@
       <div class="section-heading"><div><p class="eyebrow"><span class="section-marker" aria-hidden="true">02 /</span> <span data-i18n="backgroundEyebrow">BACKGROUND</span></p><h2 id="background-heading" data-i18n="backgroundHeading">Experience & education</h2></div><span class="background-note" data-i18n="backgroundNote">Tongji → UC San Diego → Aether AI</span></div>
       <div class="background-grid">
         <div><h3 class="column-title" data-i18n="experienceTitle">Experience</h3>
-          <div class="timeline-entry"><p class="timeline-date" data-i18n="aetherDates">Apr 2026 — Present</p><h4>Aether AI</h4><p class="timeline-role" data-i18n="aetherRole">Research Intern · Embodied AI & Robot Learning</p><p data-i18n="aetherBody">Agent planning, execution, tool interfaces, and Causal World Action Model policy integration for CRIS-0; robot-agent evaluation and Video2World.</p></div>
+          <div class="timeline-entry"><p class="timeline-date" data-i18n="aetherDates">Apr 2026 — Present</p><h4>Aether AI</h4><p class="timeline-role" data-i18n="aetherRole">Research Intern · Embodied AI & Robot Learning</p><p data-i18n="aetherBody">Agent planning, execution, tool interfaces, and Causal World Action Model policy integration for CRIS-0; co-led RobotAgentBench and contributed to Video2World.</p></div>
           <div class="timeline-entry"><p class="timeline-date" data-i18n="arcDates">Jan 2026 — May 2026</p><h4><a href="https://www.ucsdarclab.com/" target="_blank" rel="noopener noreferrer">UC San Diego · ARCLab</a></h4><p class="timeline-role" data-i18n="arcRole">Student Researcher · Robot Learning</p><p data-i18n="arcBody">Advanced Robotics and Controls Laboratory, advised by Prof. Michael Yip. Co-second author of CAMP; built Memory-T-Bench / Memory-Manip-Bench demonstration and evaluation infrastructure and ran ACT, Diffusion Policy, π0.5, and MemoryVLA baselines.</p></div>
           <div class="timeline-entry"><p class="timeline-date" data-i18n="hirainDates">Jul 2025 — Sep 2025</p><h4 data-i18n="hirainName">Jingwei Hirain Technologies</h4><p class="timeline-role" data-i18n="hirainRole">Dynamic Perception Algorithm Intern</p><p data-i18n="hirainBody">Camera / LiDAR / radar auto-labeling, CLIP-based data filtering, and BEVFormer perception.</p></div>
         </div>

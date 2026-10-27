@@ -38,3 +38,7 @@ The compact academic layout places titles, authorship, and status together, with
 Space Grotesk is self-hosted from Google Fonts; its SIL Open Font License is included in `assets/fonts/OFL.txt`.
 
 Only publicly released research is listed. CVs are shared individually on request; do not add resume PDFs or private recruiting materials to this repository.
+
+## 2026-10-27: RobotAgentBench release
+
+Added bilingual RobotAgentBench entry, official overview image, and project/paper/code links. Authorship (co-first author and co-project leader), 50/90/18/8/4 scale, and 11 standalone policies verified against Towards Open-world Robot Autonomy, arXiv:2610.34649. Personal contributions follow the confirmed resume record.
