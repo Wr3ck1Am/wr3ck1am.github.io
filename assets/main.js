@@ -7,7 +7,7 @@ const zh = {
   rabDetails:"RobotAgentBench 研究从执行预定义任务到根据高层需求自主行动之间的差距。任务级评测分别考核五类能力，开放场景则检验智能体如何将这些能力整合起来。实验比较独立 VLA/WAM 策略与规划–执行–验证 Agent，并研究混合执行和递归自我改进。论文 Towards Open-world Robot Autonomy 于 2026 年 10 月发布为 arXiv 预印本（2610.34649）。",
   skip:"跳转到正文",navResearch:"研究",navExperience:"经历",navContact:"联系",heroCv:"简历",heroGreeting:"嗨，我是",heroLead:"让机器人，",heroLeadAccent:"走出预设的脚本。",
   introStart:"我在 ",introStudy:" 攻读硕士，同时在 ",introAdvisor:"Michael Yip 教授",introAether:" 担任研究实习生。此前曾与 ",introLab:" 在 ",introEnd:" 开展机器人学习研究（2026 年 1–5 月）。",
-  introFocus:"研究聚焦开放式与长程机器人自主，关注因果推理、行为记忆和世界模型；相关工作包括 ",introCrisWork:" 的 Agent 规划与执行，以及 ",introCampWork:" 的操作记忆，希望机器人能理解情境、自主发现任务、组合技能，并从失败中恢复。",
+  introFocus:"我致力于构建和评测能够理解环境、围绕开放式目标行动，并从失败中恢复的机器人。研究涵盖 ",introRabWork:" 的自主能力评测、",introCrisWork:" 的因果规划与执行，以及 ",introCampWork:" 的操作行为记忆，希望让机器人在日常环境中更可靠地完成长程任务。",
   introPast:"本科毕业于 ",introTongji:"同济大学",introHirain:"，曾在 ",introHirainName:"经纬恒润",introCollab:" 从事动态感知。欢迎 ",introConnect:"交流想法、探讨合作。",availability:"寻求 2027 年起的机器人学习 / 具身智能研究与工程岗位",location:"美国加州 · 圣迭戈",portraitCaption:"UC San Diego · Aether AI",
   studioNote:"从情境，到行动。",lensBuild:"CRIS-0",lensBuildDetail:"因果 Agent · 智元 G1",lensRemember:"CAMP",lensRememberDetail:"行为记忆 · CoRL Workshop / TRA",
   researchEyebrow:"主要研究",researchHeading:"研究项目",researchNote:"从机器人的行为，到衡量能力的评测体系。",
