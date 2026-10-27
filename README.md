@@ -42,3 +42,7 @@ Only publicly released research is listed. CVs are shared individually on reques
 ## 2026-10-27: RobotAgentBench release
 
 Added bilingual RobotAgentBench entry, official overview image, and project/paper/code links. Authorship (co-first author and co-project leader), 50/90/18/8/4 scale, and 11 standalone policies verified against Towards Open-world Robot Autonomy, arXiv:2610.34649. Personal contributions follow the confirmed resume record.
+
+## Project presentation refinement
+
+RobotAgentBench uses the official RAB mosaic cover from the benchmark repository (`docs/images/robotagentbench-banner.png`). Highlighted scale starts with five capability dimensions. Its collapsed Paper details section includes the full overview figure; CRIS-0 uses a collapsed System details section focused on the system and public demonstrations. Both sections are bilingual.
