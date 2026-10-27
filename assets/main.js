@@ -1,5 +1,6 @@
 "use strict";
 const zh = {
+  viewSystemFigure:"查看原图",
   lensRab:"开放世界机器人自主性",rabRole:"共同项目负责人 · 共同第一作者",rabStatus:"arXiv 预印本 · 2026.10",rabSubtitle:"迈向开放世界的机器人自主性",
   rabBody:"共同负责家庭机器人自主性评测基准，覆盖明确指令下的操作到开放式自主服务。我的工作包括评测设计、任务构建、模型适配与实验，考核任务发现、上下文推理、操作、失败恢复和鲁棒性。",
   rabDimensions:"能力评测维度",rabPaperDetails:"论文详情",systemDetails:"系统详情",rabAtomic:"原子任务",rabTasks:"短程 + 长程任务",rabScenarios:"开放场景",
@@ -35,3 +36,25 @@ function setLanguage(language) {
 }
 toggle.addEventListener("click", () => setLanguage(document.documentElement.lang === "en" ? "zh" : "en"));
 try { if (localStorage.getItem("portfolio-language") === "zh") setLanguage("zh"); } catch (_) {}
+
+// Fit the original blog diagram without changing its internal layout.
+const systemFrame = document.getElementById("cris0-system-figure");
+if (systemFrame) {
+  const wrapper = systemFrame.parentElement;
+  function fitSystemFigure() {
+    const doc = systemFrame.contentDocument;
+    const figure = doc && doc.querySelector("figure");
+    if (!figure || !wrapper.clientWidth) return;
+    const height = Math.ceil(figure.getBoundingClientRect().height);
+    const scale = Math.min(1, wrapper.clientWidth / 1160);
+    systemFrame.style.height = height + "px";
+    systemFrame.style.transform = "scale(" + scale + ")";
+    wrapper.style.height = Math.ceil(height * scale) + "px";
+  }
+  systemFrame.addEventListener("load", () => {
+    fitSystemFigure();
+    systemFrame.contentDocument.fonts.ready.then(fitSystemFigure);
+  });
+  new ResizeObserver(fitSystemFigure).observe(wrapper);
+  systemFrame.closest("details").addEventListener("toggle", fitSystemFigure);
+}

@@ -46,3 +46,5 @@ Added bilingual RobotAgentBench entry, official overview image, and project/pape
 ## Project presentation refinement
 
 RobotAgentBench uses the official RAB mosaic cover from the benchmark repository (`docs/images/robotagentbench-banner.png`). Highlighted scale starts with five capability dimensions. Its collapsed Paper details section includes the full overview figure; CRIS-0 uses a collapsed System details section focused on the system and public demonstrations. Both sections are bilingual.
+
+CRIS-0 System details embeds Fig. 1 from the official blog in an isolated, responsive frame (`assets/cris0-system.html`). Original diagram markup and styling are preserved, with official image/font URLs and a full-size diagram link.
