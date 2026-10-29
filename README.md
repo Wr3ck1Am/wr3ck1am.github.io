@@ -51,4 +51,4 @@ CRIS-0 System details embeds Fig. 1 from the official blog in an isolated, respo
 
 ## 2026-10-29: RobotAgentBench media coverage
 
-Added bilingual media coverage beneath RobotAgentBench using the existing coverage layout, with colors adapted to its light card. The [Sina republication](https://finance.sina.cn/stock/jdts/2026-10-29/detail-iniwwpnz5266474.d.html) of “当机器人走出预设任务：RobotAgentBench全面评测机器人的开放世界能力” identifies its source as 机器之心Pro; title, source, publication date, and article accessibility verified on 2026-10-29. The link explicitly identifies Sina as the republication host.
+Added bilingual media coverage beneath RobotAgentBench using the existing coverage layout, with colors adapted to its light card. The [Sina republication](https://finance.sina.cn/stock/jdts/2026-10-29/detail-iniwwpnz5266474.d.html) of “当机器人走出预设任务：RobotAgentBench全面评测机器人的开放世界能力” identifies its source as 机器之心Pro; title, source, publication date, and article accessibility verified on 2026-10-29. The visible link label is 机器之心 in both languages; the tooltip identifies Sina as the republication host.
