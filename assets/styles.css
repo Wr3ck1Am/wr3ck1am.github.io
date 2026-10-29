@@ -28,3 +28,6 @@ html[lang="zh-CN"] .hero-lead{font-family:var(--sans);font-size:20px;letter-spac
 
 /* Keep the blog diagram at the same reading width as the paper figures. */
 .system-figure-frame{position:relative;width:100%;max-width:650px;overflow:hidden;margin-top:10px;border-radius:4px;background:#faf7f0}
+
+/* Media coverage on the light RobotAgentBench card. */
+.rab-project .project-coverage{border-color:var(--line)}.rab-project .coverage-label,.rab-project .coverage-links small{color:var(--secondary)}.rab-project .coverage-links a{color:var(--blue);text-decoration-color:#b5c0fc}.rab-project .coverage-links a:hover{color:var(--orange);text-decoration-color:currentColor}

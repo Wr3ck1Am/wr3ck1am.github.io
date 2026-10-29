@@ -48,3 +48,7 @@ Added bilingual RobotAgentBench entry, official overview image, and project/pape
 RobotAgentBench uses the official RAB mosaic cover from the benchmark repository (`docs/images/robotagentbench-banner.png`). Highlighted scale starts with five capability dimensions. Its collapsed Paper details section includes the full overview figure; CRIS-0 uses a collapsed System details section focused on the system and public demonstrations. Both sections are bilingual.
 
 CRIS-0 System details embeds Fig. 1 from the official blog in an isolated, responsive frame (`assets/cris0-system.html`). Original diagram markup and styling are preserved, with official image/font URLs and a full-size diagram link.
+
+## 2026-10-29: RobotAgentBench media coverage
+
+Added bilingual media coverage beneath RobotAgentBench using the existing coverage layout, with colors adapted to its light card. The [Sina republication](https://finance.sina.cn/stock/jdts/2026-10-29/detail-iniwwpnz5266474.d.html) of “当机器人走出预设任务：RobotAgentBench全面评测机器人的开放世界能力” identifies its source as 机器之心Pro; title, source, publication date, and article accessibility verified on 2026-10-29. The link explicitly identifies Sina as the republication host.
